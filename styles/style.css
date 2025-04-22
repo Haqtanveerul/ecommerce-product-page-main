@@ -1,0 +1,93 @@
+/* CSS Reseting */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 0;
+}
+.nav-left nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+}
+
+.nav-right nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+}
+
+.avatar {
+  width: 50px;
+}
+
+/* main */
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+}
+
+.main-left {
+    max-width: 400px;
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
+
+.main-right h1 {
+    font-size: 15px;
+}
+
+.main-right h2 {
+    font-size: 30px;
+}
+
+.main-right p {
+    margin: 20px 0 ;
+}
+
+del {
+    display: block;
+}
+
+
+
+

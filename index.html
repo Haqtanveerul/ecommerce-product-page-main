@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- small icon for the tab -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>E-commerce product page</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="nav-left">
+        <nav>
+          <ul>
+            <div class="logo">
+              <img src="./images/logo.svg" alt="Sneaker Company Logo" />
+            </div>
+            <li>Collections</li>
+            <li>Men</li>
+            <li>Women</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="nav-right">
+        <nav>
+          <div class="cart">
+            <img src="images/icon-cart.svg" alt="cart icon" />
+          </div>
+          <div class="avatar">
+            <img src="images/image-avatar.png" alt="user avatar" />
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <div class="main-left">
+        <img src="images/image-product-1.jpg" alt="" />
+        <div class="thumbnails">
+          <img src="images/image-product-1-thumbnail.jpg" alt="" />
+          <img src="images/image-product-2-thumbnail.jpg" alt="" />
+          <img src="images/image-product-3-thumbnail.jpg" alt="" />
+          <img src="images/image-product-4-thumbnail.jpg" alt="" />
+        </div>
+      </div>
+      
+      <div class="main-right">
+
+        <h1>Sneaker Company</h1>
+        <h2>Fall Limited Edition Sneakers</h2>
+        <p>
+          These low-profile sneakers are your perfect casual wear companion.
+          Featuring a durable rubber outer sole, they’ll withstand everything the
+          weather can offer.
+        </p>
+        <p><strong>$125.00</strong> <span>50% off</span> <del>$250.00</del></p>
+        
+        <!-- Quantity Selector -->
+        <div>
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" value="0" min="0" />
+        </div>
+        
+        <!-- Add to Cart Button -->
+        <button>Add to cart</button>
+      </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer></footer>
+  </body>
+</html>
